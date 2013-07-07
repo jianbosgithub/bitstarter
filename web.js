@@ -7,7 +7,7 @@ var k = fs.readFileSync("./index.html", 'utf8');
 var str = k.toString();
 
 app.get('/', function(request, response) {
-  response.send(str);
+  response.send('str');
 });
 
 var port = process.env.PORT || 5000;
