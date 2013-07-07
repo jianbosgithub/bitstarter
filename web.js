@@ -2,6 +2,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
+var fs = require('fs');
 //var k = fs.readFileSync("./index.html", 'utf8');
 
 //var str = k.toString();
